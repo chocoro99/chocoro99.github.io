@@ -1,41 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SungHyeon</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="profile_container">
-            <div class="profile_image">
-                <img src="./profile.png"/>                                            
-            </div>
-            <div class="profile_name">
-                <div class="profile_name--top">
-                    <a>김성현</a>
-                </div>
-                <div class="profile_name--bottom">
-                    <a>프론트엔드 지망생</a>
-                </div>
-            </div>
-            <div class="profile_promise">
-                <a>재미를 추구하는 개발자가 되고 싶습니다.</a>
-            </div>
-            <ul class="profile_desc">                                
-                <li class="profile_desc--mail"><img src="./mailicon.png"><span>lie202319@naver.com</span></li>
-                <li class="profile_desc--github"><a href="https://github.com/chocoro99" target="_blank"><img src="./githubicon.png"><span>깃허브</span></a></li>
-                <li class="profile_desc--youtube">
-                    <a href="https://www.youtube.com/channel/UC5Ea2Sud7i0_oEQ8s8pnzlw" target="_blank"><img src="./youtubeicon.png"><span>취미로 게임합니다.</span></a></li>                
-            </ul>       
-        </div>        
-        <div class="portfolio_container">
-            <div>
-
-            </div>
+      <div class="profile_container">
+        <div class="profile_image">
+          <img src="./profile.png" />
         </div>
+        <div class="profile_name">
+          <div class="profile_name--top">
+            <a>김성현</a>
+          </div>
+          <div class="profile_name--bottom">
+            <a>프론트엔드 지망생</a>
+          </div>
+        </div>
+        <div class="profile_promise">
+          <a>재미를 추구하는 개발자가 되고 싶습니다.</a>
+        </div>
+        <ul class="profile_desc">
+          <li class="profile_desc--mail">
+            <img src="./mailicon.png" /><span>lie202319@naver.com</span>
+          </li>
+          <li class="profile_desc--github">
+            <a href="https://github.com/chocoro99" target="_blank">
+              <img src="./githubicon.png" /><span>깃허브</span>
+            </a>
+          </li>
+          <li class="profile_desc--youtube">
+            <a
+              href="https://www.youtube.com/channel/UC5Ea2Sud7i0_oEQ8s8pnzlw"
+              target="_blank"
+            >
+              <img src="./youtubeicon.png" /><span>취미로 게임합니다.</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="portfolio_container">
+        <div class="portfolio_contents">
+          <div>
+            <img src="portfolio1.gif" />
+            <h2>나만의 가계부 - 내 월급은 어디로</h2>
+            <h3>
+              JavaScript를 사용하여 LocalStorage에<br />
+              내용을 저장 및 불러오는 기능을 구현한 나만의 가계부입니다.
+            </h3>
+            <h3>
+              링크 :
+              <a target="_blank" href="https://chocoro99.github.io/account-book"
+                >https://chocoro99.github.io/account-book</a
+              >
+            </h3>
+            <h3>주요 스킬 : HTML, CSS, JavaScript</h3>
+          </div>
+          <div>
+            <div class="portfolio_content--image"></div>
+            <div>몰입 경험</div>
+          </div>
+          <div>your content</div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
