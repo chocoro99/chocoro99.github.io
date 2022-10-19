@@ -141,7 +141,7 @@ a {
   text-decoration: none;
 }
 .portfolio_container a:hover {
-  color: green;
+  color: green !important;
 }
 .portfolio_content--image + div {
   text-align: center;
