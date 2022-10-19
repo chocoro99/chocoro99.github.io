@@ -164,11 +164,16 @@
   text-decoration: none;
 }
 .portfolio_page3 ul li a:visited,
-a:active {
+a:active,
+a:link,
+a {
   color: black;
 }
 .portfolio_page3 ul li a:hover {
   color: green;
+}
+.portfolio_page3--top > div:nth-child(1) a {
+  text-decoration: none;
 }
 .portfolio_page3--top > div:nth-child(1),
 .portfolio_page3--bottom > div:nth-child(1) {
