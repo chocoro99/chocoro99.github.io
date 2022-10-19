@@ -133,7 +133,16 @@
   margin: 20px;
   margin-right: 40px;
 }
-
+.portfolio_container a:visited,
+a:active,
+a:link,
+a {
+  color: black;
+  text-decoration: none;
+}
+.portfolio_container a:hover {
+  color: green;
+}
 .portfolio_content--image + div {
   text-align: center;
   width: 50%;
@@ -159,21 +168,6 @@
 .portfolio_page3 ul li {
   list-style: disc;
   line-height: 1.8;
-}
-.portfolio_page3 ul li a {
-  text-decoration: none;
-}
-.portfolio_page3 ul li a:visited,
-a:active,
-a:link,
-a {
-  color: black;
-}
-.portfolio_page3 ul li a:hover {
-  color: green;
-}
-.portfolio_page3--top > div:nth-child(1) a {
-  text-decoration: none;
 }
 .portfolio_page3--top > div:nth-child(1),
 .portfolio_page3--bottom > div:nth-child(1) {
